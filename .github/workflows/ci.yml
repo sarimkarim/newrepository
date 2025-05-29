@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Compile C program
-        run: gcc yourfile.c -o yourprogram
+        run: gcc sarim.c -o yourprogram
